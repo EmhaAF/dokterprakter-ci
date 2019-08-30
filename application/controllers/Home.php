@@ -8,4 +8,10 @@ class Home extends CI_Controller {
 		$data['title'] = 'Home';
 		$this->load->view('home', $data);
 	}
+
+	public function detail()
+	{
+		$data['title'] = 'Detail Pasien';
+		$this->load->view('detail', $data);
+	}
 }

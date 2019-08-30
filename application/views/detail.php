@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title><?= $title ?></title>
+  <title>Argon Design System - Free Design System for Bootstrap 4</title>
   <!-- Favicon -->
   <link href="<?= asset_url() ?>img/brand/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -24,7 +24,7 @@
   <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
       <div class="container">
-        <a class="navbar-brand mr-lg-5" href="./index.html">
+        <a class="navbar-brand mr-lg-5" href="../index.html">
           <img src="<?= asset_url() ?>img/brand/white.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
           <div class="navbar-collapse-header">
             <div class="row">
               <div class="col-6 collapse-brand">
-                <a href="./index.html">
+                <a href="../index.html">
                   <img src="<?= asset_url() ?>img/brand/blue.png">
                 </a>
               </div>
@@ -81,21 +81,44 @@
                 <span class="nav-link-inner--text">Examples</span>
               </a>
               <div class="dropdown-menu">
-                <a href="./examples/landing.html" class="dropdown-item">Landing</a>
-                <a href="./examples/profile.html" class="dropdown-item">Profile</a>
-                <a href="./examples/login.html" class="dropdown-item">Login</a>
-                <a href="./examples/register.html" class="dropdown-item">Register</a>
+                <a href="../examples/landing.html" class="dropdown-item">Landing</a>
+                <a href="../examples/profile.html" class="dropdown-item">Profile</a>
+                <a href="../examples/login.html" class="dropdown-item">Login</a>
+                <a href="../examples/register.html" class="dropdown-item">Register</a>
               </div>
             </li>
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+                <i class="fa fa-facebook-square"></i>
+                <span class="nav-link-inner--text d-lg-none">Facebook</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+                <i class="fa fa-instagram"></i>
+                <span class="nav-link-inner--text d-lg-none">Instagram</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+                <i class="fa fa-twitter-square"></i>
+                <span class="nav-link-inner--text d-lg-none">Twitter</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial/argon-design-system" target="_blank" data-toggle="tooltip" title="Star us on Github">
+                <i class="fa fa-github"></i>
+                <span class="nav-link-inner--text d-lg-none">Github</span>
+              </a>
+            </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="ni ni-lock-circle-open mr-2"></i>
+                  <i class="fa fa-cloud-download mr-2"></i>
                 </span>
-                <span class="nav-link-inner--text">Admin</span>
+                <span class="nav-link-inner--text">Download</span>
               </a>
             </li>
           </ul>
@@ -104,101 +127,68 @@
     </nav>
   </header>
   <main>
-    <div class="position-relative">
-      <!-- Hero for FREE version -->
-      <section class="section-hero section-shaped section-lg my-0">
-        <div class="shape shape-style-1 shape-default">
-          <span class="span-150"></span>
-          <span class="span-50"></span>
-          <span class="span-50"></span>
-          <span class="span-75"></span>
-          <span class="span-100"></span>
-          <span class="span-75"></span>
-          <span class="span-50"></span>
-          <span class="span-100"></span>
-          <span class="span-50"></span>
-          <span class="span-100"></span>
-        </div>
-        <div class="container shape-container d-flex align-items-center">
-          <div class="col px-0">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-lg-7 text-center pt-lg">
-                <img src="<?= asset_url() ?>img/brand/white.png" style="width: 200px;" class="img-fluid">
-                <p class="lead text-white mt-4 mb-0">Sistem Pakar Kesehatan Berbasis web</p>
-                <p class="lead text-white mt-0 mb-5">Dibuat menggunakan Code Igniter</p>
-                <div class="btn-wrapper">
-                  <a href="#section-components" class="btn btn-lg btn-info btn-icon mb-3 mb-sm-0" data-toggle="modal" data-target="#modal-form">
-                    <span class="btn-inner--icon"><i class="ni ni-ambulance"></i></span>
-                    <span class="btn-inner--text">Periksa</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center justify-content-around stars-and-coded mb-2">
-              <div class="col-sm-4">
-                <span class="text-white alpha-7 ml-3">Star us on</span>
-                <a href="https://github.com/creativetimofficial/argon-design-system" target="_blank" title="Support us on Github">
-                  <img src="<?= asset_url() ?>img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
-                </a>
-              </div>
-              <div class="col-sm-4 mt-4 mt-sm-0 text-right">
-                <span class="text-white alpha-7">Coded by</span>
-              </div>
-              <div class="col-sm-2 mt-4 mt-sm-0 text-left">
-                <span class="text-white alpha-7 ">
-                  <p class="mt-0 mb-0">Nurlatif Ardhi</p>
-                  <p class="mt-0 mb-0">Emha Aziz</p>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-  </main>
-  <div class="col-md-5">
-    <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
-      <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
-        <div class="modal-content">
-          <div class="modal-body p-0">
+    <section class="section section-shaped section-lg my-0">
+      <div class="shape shape-style-1 bg-gradient-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container pt-lg-md">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
             <div class="card bg-secondary shadow border-0">
               <div class="card-header bg-white">
                 <div class="text-muted text-center">
                   <h2 class="text-center">
-                    <span>Form Periksa</span>
+                    <span>Detail Pasien</span>
                   </h2>
                 </div>
               </div>
               <div class="card-body px-lg-5 py-lg-5">
                 <form role="form">
-                  <div class="form-group mb-3">
-                    <div class="input-group input-group-alternative">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+
+                  <div class="form-group">
+                    <div class="input-group input-group-alternative mb-4">
+                      <input class="form-control" placeholder="Tinggi Badan" type="number">
+                      <div class="input-group-append">
+                        <span class="input-group-text">cm</span>
                       </div>
-                      <input class="form-control" placeholder="Nama" type="text">
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="input-group input-group-alternative">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="ni ni-pin-3"></i></span>
-                      </div>
-                      <input class="form-control" placeholder="Alamat" type="text">
+                    <div class="custom-control custom-radio mb-3">
+                      <input name="custom-radio-1" class="custom-control-input" id="customRadio1" type="radio">
+                      <label class="custom-control-label" for="customRadio1">Laki Laki</label>
+                    </div>
+                    <div class="custom-control custom-radio mb-3">
+                      <input name="custom-radio-1" class="custom-control-input" id="customRadio2" checked="" type="radio">
+                      <label class="custom-control-label" for="customRadio2">Perempuan</label>
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="input-group input-group-alternative">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                    <div class="input-group input-group-alternative mb-4">
+                      <input class="form-control" placeholder="Berat Badan" type="number">
+                      <div class="input-group-append">
+                        <span class="input-group-text">Kg</span>
                       </div>
-                      <input class="form-control datepicker" placeholder="Select date" type="text" value="06/20/2019">
                     </div>
                   </div>
-                  <div class="text-center mt-5">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <a href="<?= base_url() ?>home/detail" class="btn btn-primary">Save changes</a>
+                  <div class="form-group">
+                    <div class="input-group input-group-alternative mb-4">
+                      <input class="form-control" placeholder="Usia" type="number">
+                      <div class="input-group-append">
+                        <span class="input-group-text">Tahun</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="text-center">
+                    <button type="button" class="btn btn-primary mt-4">Create account</button>
                   </div>
                 </form>
               </div>
@@ -206,12 +196,11 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <footer class="footer has-cards">
+    </section>
+  </main>
+  <footer class="footer">
     <div class="container">
-      <div class="row row-grid align-items-center my-md">
+      <div class="row row-grid align-items-center mb-5">
         <div class="col-lg-6">
           <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
           <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
@@ -235,14 +224,23 @@
       <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
           <div class="copyright">
-            &copy; 2019
-            <a href="https://www.creative-tim.com" target="_blank">Nurlatif Ardhi Pratama | Emha Aziz Fikri</a>
+            &copy; 2018
+            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
           </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
+              <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+            </li>
+            <li class="nav-item">
               <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
             </li>
           </ul>
         </div>
@@ -254,10 +252,6 @@
   <script src="<?= asset_url() ?>vendor/popper/popper.min.js"></script>
   <script src="<?= asset_url() ?>vendor/bootstrap/bootstrap.min.js"></script>
   <script src="<?= asset_url() ?>vendor/headroom/headroom.min.js"></script>
-  <!-- Optional JS -->
-  <script src="<?= asset_url() ?>vendor/onscreen/onscreen.min.js"></script>
-  <script src="<?= asset_url() ?>vendor/nouislider/js/nouislider.min.js"></script>
-  <script src="<?= asset_url() ?>vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   <!-- Argon JS -->
   <script src="<?= asset_url() ?>js/argon.js?v=1.0.0"></script>
 </body>
